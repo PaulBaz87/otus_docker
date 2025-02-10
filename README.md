@@ -1,4 +1,4 @@
-Сборка image:
+Сборка image:/n
 docker build --platform linux/amd64 -t paulbaz87/p_app:v1 .
 
 Запуск контейнера:
