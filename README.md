@@ -1,5 +1,8 @@
-Сборка image:
+Сборка image на хосте с Windows (архитектура amd64):
 docker build --platform linux/amd64 -t paulbaz87/p_app:v1 .
+
+Сборка image на хосте с MacOS (архитектура arm64):
+docker build  --platform linux/arm64 -t paulbaz87/p_app:v1 .
 
 Запуск контейнера:
 docker run -d -p 8000:8000 p_app:v1
